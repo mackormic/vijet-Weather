@@ -1,0 +1,52 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.wrapper {
+    
+}
+
+.weather_wrapper{
+    
+}
+
+.weather {
+display: flex;
+flex-direction: column;
+column-gap: 50px;
+margin: 100px auto;
+max-width: 450px;
+background-color: rgb(148, 216, 193);
+padding: 50px;
+border-radius: 30px;
+}
+
+.weather_loading {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.weather_loading img {
+    max-width: 50px;
+}
+
+.weather_city {
+    font-weight:  700;
+    font-size: 66px;
+}
+.weaher_status {
+    font-size: 26px;
+
+}
+.weather_temp {
+    font-weight:  600;
+    font-size: 44px;
+}
+.weather_feel-like {
+    font-size: 26px;
+}
