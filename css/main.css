@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 .wrapper {
@@ -19,7 +19,7 @@ body {
 display: flex;
 flex-direction: column;
 column-gap: 50px;
-margin: 100px auto;
+margin: 50px auto;
 max-width: 450px;
 background-color: rgb(148, 216, 193);
 padding: 50px;
@@ -49,4 +49,10 @@ align-items: center;
 }
 .weather_feel-like {
     font-size: 26px;
+}
+
+.labelBlock {
+    max-width: 450px;
+    margin: 0px auto;
+    text-align: center;
 }
