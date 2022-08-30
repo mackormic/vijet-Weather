@@ -22,7 +22,7 @@ body {
   background-color: rgb(148, 216, 193);
   padding: 50px;
   border-radius: 30px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  box-shadow: 12px -12px 2px 1px rgba(0, 0, 255, 0.2);
   color: white;
 }
 
