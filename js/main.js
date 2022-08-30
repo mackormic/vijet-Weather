@@ -35,7 +35,7 @@ function getWeather(data) {
 <div class="weather_city">${location}</div>
 <div class="weaher_status">${dataStatus}</div>
 <div class="weather_temp">${temp}&deg</div>
-<div class="weather_feel-like">${feelsLike}&deg</div>
+<div class="weather_feel-like">Feels like: ${feelsLike}&deg</div>
 `;
   weatherBlock.innerHTML = template;
 }
